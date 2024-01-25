@@ -5,15 +5,16 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const hbs = require('hbs');
 
-var indexRouter = require('./app_server/routes/index');
-var usersRouter = require('./app_server/routes/users');
-var travelRouter = require('./app_server/routes/travel');
+const indexRouter = require('./app_server/routes/index');
+const usersRouter = require('./app_server/routes/users');
+const travelRouter = require('./app_server/routes/travel');
 
-var app = express();
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'app_server', 'views'));
-hbs.registerPartials(path.join(__dirname, 'app_server', 'views', 'partials'));
+// register handlebars partials (https://www.npmjs.com/package/hbs)
+hbs.registerPartials(path.join(__dirname, 'app_server', 'views/partials'));
 app.set('view engine', 'hbs');
 
 app.use(logger('dev'));
