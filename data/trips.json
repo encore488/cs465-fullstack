@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Gale Reef",
+        "image": "reef1.jpg",
+        "description": "<p>This is a reef in the middle of the ocean. Or is it?</p>"
+    },
+    {
+        "name": "Dawsons Reef",
+        "image": "reef2.jpg",
+        "description": "<p>This is the second reef. Many people say it is the most harmgoans dfjlkdsfl jsafds Goobidy glop. Or is it?</p> <br> <br> <p>It is.</p>"
+    },
+    {
+        "name": "Claires Reef",
+        "image": "reef3.jpg",
+        "description": "<p>This is the third reef. I think it has reefy stuff in it. </p>"
+    }
+]
