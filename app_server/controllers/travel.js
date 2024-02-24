@@ -16,7 +16,7 @@ const renderTravelList = (req, res, responseBody) => {
             message = 'No trips found';
         }
     }
-    res.render('travel-list', {
+    res.render('travel', {
         title: pageTitle,
         trips: responseBody,
         message
